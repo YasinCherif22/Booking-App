@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/color60"
+
+    android:fitsSystemWindows="true"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        style="@style/Headline1"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="38dp"
+        android:background="@null"
+        android:src="@drawable/pho_caret_left"
+        app:tint="@color/iconColor"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/back_button" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="16dp"
+
+        android:orientation="vertical"
+        android:layout_below="@id/title"
+        android:layout_marginTop="24dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="18dp"
+            android:background="@drawable/rounded_corners_background"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/dark_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="18dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"> <!-- Zentriert alle Elemente vertikal -->
+
+                <!-- Icon -->
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="@string/dark_mode"
+                    android:src="@drawable/pho_moon_fill"
+                    app:tint="@color/iconColor" />
+
+                <!-- Text -->
+                <TextView
+                    style="@style/Body1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/dark_mode"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/Body3"
+            android:id="@+id/version_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 0.0"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

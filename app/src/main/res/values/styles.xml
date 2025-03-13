@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomDialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.75</item>
+
+        <item name="android:background">@drawable/rounded_corners_background</item>
+        <item name="android:backgroundTint">@color/color30</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:windowMinWidthMajor">80%</item> <!-- Für einen Abstand zu den Rändern -->
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+
+
+
+
+    <style name="Headline1">
+        <item name="android:fontFamily">@font/inter_black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Headline2">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+
+    <style name="Headline3">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+
+    <style name="Hint">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/subTextColor</item>
+    </style>
+
+
+    <style name="Body1">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColor</item> <!-- Standard Textfarbe -->
+    </style>
+
+    <style name="Body2">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/subTextColor</item> <!-- Standard Textfarbe -->
+    </style>
+
+    <style name="Body3">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/subTextColor</item> <!-- Standard Textfarbe -->
+    </style>
+
+    <style name="Button">
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColor</item> <!-- Standard Textfarbe -->
+    </style>
+
+    <style name="ClickText">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color10</item> <!-- Standard Textfarbe -->
+    </style>
+
+    <style name="Tags">
+        <item name="android:fontFamily">@font/inter_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/subTextColor</item> <!-- Standard Textfarbe -->
+    </style>
+
+
+
+
+
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <!-- BottomSheet Style -->
+    <style name="BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="shapeAppearance">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
+        <item name="backgroundTint">@android:color/transparent</item> <!-- Hintergrundfarbe auf Schwarz setzen -->
+    </style>
+
+
+    <style name="Widget.Material3.BottomNavigationView.ActiveIndicator" parent="">
+        <item name="android:width">@dimen/m3_bottom_nav_item_active_indicator_width</item>
+        <item name="android:height">@dimen/m3_bottom_nav_item_active_indicator_height</item>
+        <item name="marginHorizontal">@dimen/m3_bottom_nav_item_active_indicator_margin_horizontal</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator</item>
+        <item name="android:color">?attr/colorSecondaryContainer</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/BottomNavigationBar</item>
+    </style>
+
+    <style name="TextAppearance.BottomNav.Active" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">12.5sp</item>
+    </style>
+
+    <!-- TextAppearance für inaktives Element -->
+    <style name="TextAppearance.BottomNav.Inactive" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BookingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/color30</item>
+        <item name="colorPrimaryVariant">@color/color30</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/color10</item>
+        <item name="colorSecondaryVariant">@color/color10</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.BookingApp.NoActionBar" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Use the colorPrimary and colorOnPrimary from the original Theme.ToDoApp -->
+        <item name="colorPrimary">@color/color30</item>
+        <item name="colorPrimaryVariant">@color/color30</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Customize status bar color -->
+
+        <item name="android:statusBarColor">@color/color60</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/color30</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/white</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorPrimary">@color/color10</item>
+
+        <item name="colorAccent">@color/color30</item>
+        <item name="android:windowBackground">@color/color60</item>
+
+        <item name="colorControlHighlight">@color/color30</item>
+        <item name="colorControlActivated">@color/color10</item>
+
+        <item name="android:textColor">@color/color10</item>
+
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorPrimaryInverse">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorSecondaryInverse">@color/textColor</item>
+
+        <item name="android:selectableItemBackgroundBorderless">?attr/selectableItemBackground</item>
+
+    </style>
+
+</resources>

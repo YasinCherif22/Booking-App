@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BookingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color30</item>
+        <item name="colorPrimaryVariant">@color/color30</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/color10</item>
+        <item name="colorSecondaryVariant">@color/color30</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.BookingApp.NoActionBar" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Use the colorPrimary and colorOnPrimary from the original Theme.ToDoApp -->
+        <item name="colorPrimary">@color/color30</item>
+        <item name="colorPrimaryVariant">@color/color30</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Customize status bar color -->
+        <item name="android:statusBarColor">@color/color60</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/color30</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+</resources>

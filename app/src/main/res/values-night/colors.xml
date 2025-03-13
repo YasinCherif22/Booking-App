@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="color60">#151318</color> <!-- #151318 ; #141118 -->
+    <color name="color30">#0F0D12</color>
+    <color name="color10">#2F4EFF</color>
+
+    <!-- Text- und Symbolfarben -->
+    <color name="textColor">#FFFFFF</color> <!-- Dunkelgrau: Haupttextfarbe -->
+    <color name="subTextColor">#757575</color> <!-- Hellgrau: Sekundärtext -->
+    <color name="iconColor">#FFFFFF</color> <!-- Weiß: Icons auf dunklen Hintergründen -->
+
+    <color name="transparentColor">#BF000000</color>
+
+    <!-- Akzentfarben -->
+    <color name="accentOrange">#FF9800</color> <!-- Orange: Für Warnungen und wichtige Aktionen -->
+    <color name="accentBlue">#2196F3</color> <!-- Blau: Interaktive Elemente wie Links -->
+    <color name="accentRed">#F44336</color>
+
+    <color  name="mtrl_textinput_default_box_stroke_color">@color/iconColor</color>
+
+
+    <!-- Zusätzliche Farben (falls noch benötigt) -->
+    <color name="black">#000000</color> <!-- Schwarz -->
+    <color name="white">#FFFFFF</color> <!-- Weiß -->
+
+    <color name="black_white">#FFFFFF</color>
+
+
+</resources>

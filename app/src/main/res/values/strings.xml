@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Booking</string>
+
+    <string name="login">Anmelden</string>
+
+    <string name="password">Passwort</string>
+    <string name="register">Registrieren</string>
+
+    <string name="click_to_login">Tippe zum anmelden</string>
+    <string name="click_to_register">Tippe zum registrieren</string>
+
+    <string name="logout">Abmelden</string>
+    <string name="notifications">Benachrichtigung</string>
+    <string name="change_password">Passwort ändern</string>
+    <string name="edit_profile">Profil bearbeiten</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="edit_personal_details">Edit personal details</string>
+    <string name="profile_picture">Profil Bild</string>
+    <string name="settings">Einstellungen</string>
+    <string name="back_button">Zurück Knopf</string>
+
+    <string name="logout_message">Bist du sicher, dass du dich abmelden möchtest?</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="enter_email">Email fehlt</string>
+    <string name="enter_password">Password fehlt</string>
+    <string name="enter_name">Name fehlt</string>
+
+    <string name="login_successful">Anmeldung erfolgreich</string>
+    <string name="authentication_failed">Authentifizierung fehlgeschlagen</string>
+
+    <string name="account_created">Account erstellt</string>
+    <string name="profile_updated">Profil aktualisiert</string>
+
+    <string name="Confirm">Bestätigen</string>
+    <string name="save">Speichern</string>
+
+    <string name="edit_display_name_hint">Neuer Name</string>
+    <string name="new_password_hint">Neues Passwort</string>
+    <string name="user_name">Benutzer Name</string>
+    <string name="profile">Profil</string>
+    <string name="home">Startseite</string>
+    <string name="search">Suchen</string>
+    <string name="favorites">Favoriten</string>
+
+    <string name="description">Beschreibung</string>
+    <string name="show_more"><u>Mehr anzeigen</u></string>
+
+
+    <string name="log_in">Anmelden</string>
+
+
+
+    <string name="address">Adresse</string>
+
+
+    <string name="date">Datum</string>
+
+
+    <string name="repeat_password">Passwort wiederholen</string>
+
+    <string name="don_t_have_account">Noch keinen Account?</string>
+    <string name="already_have_account">Hast bereits einen Account?</string>
+    <string name="or">Oder</string>
+
+
+    <string name="my_account">Mein Konto</string>
+    <string name="delete_account">Account löschen</string>
+    <string name="forgot_password">Passwort vergessen</string>
+    <string name="reset_password">Passwort zurücksetzen</string>
+
+
+
+    <string name="delete_account_message">Bist du sicher, dass du dein Konto löschen möchtest? Alle deine Daten werden dauerhaft entfernt. Diese Aktion kann nicht rückgängig gemacht werden.</string>
+
+
+    <string name="account">Account</string>
+    <string name="titel">Titel</string>
+
+    <string name="name">Name</string>
+    <string name="e_mail">Email</string>
+    <string name="delete">Löschen</string>
+    <string name="more">Weiteres</string>
+
+    <string name="no_favorites_text">Du hast keine Touren favorisiert. Markiere deine Lieblingstour, um sie hier schnell wiederzufinden!</string>
+    <string name="on">An</string>
+    <string name="off">Aus</string>
+    <string name="system_default">Systemstandard</string>
+    <string name="general">Allgemein</string>
+
+</resources>
